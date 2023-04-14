@@ -1,0 +1,7 @@
+{
+  "name": "barter-mate-draft",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
