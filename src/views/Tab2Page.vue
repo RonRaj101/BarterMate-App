@@ -76,6 +76,7 @@ import {
   IonContent,
   IonRadio,
   IonRadioGroup,
+  IonSearchbar,
 } from "@ionic/vue";
 import ExploreContainer from "@/components/ExploreContainer.vue";
 </script>

@@ -149,6 +149,11 @@ import {
   IonInput,
   IonPage,
   IonItem,
+  IonLabel,
+  IonGrid,
+  IonRow,
+  IonCol,
+  IonAvatar,
 } from "@ionic/vue";
 import { defineComponent, ref } from "vue";
 import signInEmailPassword from "../auth";
@@ -166,6 +171,11 @@ export default defineComponent({
     IonPage,
     IonInput,
     IonItem,
+    IonLabel,
+    IonGrid,
+    IonRow,
+    IonCol,
+    IonAvatar,
   },
   created() {
     getAuth().onAuthStateChanged((user) => {
