@@ -19,7 +19,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: 'tab1',
-        component: () => import('@/views/Tab1Page.vue')
+        component: () => import('@/views/Tab1Page.vue'),
       },
       {
         path: 'tab2',
@@ -32,8 +32,17 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'tab4',
         component: () => import('@/views/Tab4Page.vue')
-      }
+      },
     ]
+  },
+  {
+    path: '/details/:id',
+    component: () => import('@/views/ProductInfo.vue')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('@/views/NotFound.vue'),
   }
 ]
 
